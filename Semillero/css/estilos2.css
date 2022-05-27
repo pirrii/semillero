@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("/imagenes/AAAAAAAAAAAAAAAa.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+}
+
+.formulario {
+    background: #f5f5f5;
+    width: 100%;
+    padding: -5px;
+
+
+}
+
+.formulario3 {
+    background: #f5f5f5;
+    width: 100%;
+    padding: -5px;
+    margin-top: 100%;
+
+}
+
+.formulario2 {
+
+    background: #f5f5f5;
+    margin: auto;
+    width: 95%;
+    padding-top: 10px;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    position: relative;
+
+}
+
+
+
+.img {
+    box-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #161616;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #161616;
+    font-size: 40px;
+}
+
+h4 {
+
+
+    text-align: left;
+    color: #0F0F0F;
+    font-size: 150%;
+
+
+    margin: auto;
+    width: 108%;
+
+
+    border-radius: 5px;
+}
+
+
+input[type="text"],
+
+.input-contenedor {
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 0px;
+    width: 92%;
+    font-size: 17px;
+
+}
+
+.input-contenedor2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    width: 92%;
+    font-size: 17px;
+    border: 1px solid #aaa;
+    position: relative;
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #161616;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.button:hover {
+    background: cadetblue;
+}
+
+.p {
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 600px;
+    text-align: center;
+    background: #f5f5f5;
+    width: 100%;
+    padding: -5px;
+    font-size: 14px;
+
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: cadetblue;
+}
+
+@media(min-width:300px) {
+    .formulario {
+        margin: auto;
+        width: 95%;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+}
+
+.button2 {
+    border: none;
+    width: 12%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    background: #136902;
+
+    position: absolute;
+    left: 87%;
+    bottom: 2%;
+
+    padding: 3px;
+
+
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button3 {
+    border: none;
+    width: 108%;
+
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 25px;
+    background: #d72a1d;
+
+
+    margin-bottom: 1%;
+    padding: 3px;
+
+
+
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button4 {
+    border: none;
+    width: 10%;
+    height: 30px;
+
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 20px;
+    background: #0e4327;
+
+
+
+
+
+    position: absolute;
+
+    top: 49%;
+    left: 89%;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+
+
+.tableT,
+td,
+th {
+
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+    background: #f5f5f5;
+    position: absolute;
+    border: #161616;
+    border-radius:  8px;
+    left: 16%;
+}
+
+th,
+td {
+    
+    padding: 15px;
+    border: #ffffff;
+    border-radius:  8px;
+    
+    margin: auto;
+}

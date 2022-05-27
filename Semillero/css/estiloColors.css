@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin: 0;
+    background-color:black;
+    display: inline-grid;
+    place-items: center;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menuJ{
+    background-color:rgba(255,255,255,0.2) ;
+   text-align: center;
+    color: antiquewhite;
+    grid-gap: 10px;
+    
+}
+.dropdown-item{
+
+    width: min-content;
+background-color: transparent;
+ color: white;
+ border-color: transparent ;
+ cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+#tx1{
+    color: white;
+    position: relative;
+    font-size: x-large;
+    text-decoration:underline;
+    text-decoration-color: #fffb00;
+}
+.Colores{
+    position: absolute;
+    
+width: 20%;
+height: 20%;
+left: 20%;
+top: 90%;
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    transform: rotate(45deg);
+
+}
+
+
+.Flechas{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right: 20%;
+    top: 90%;
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    transform: rotate(45deg);
+}
+
+
+
+
+#anunciador{
+
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    color: white;
+}
+#Inicio{  
+     width: 75px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #587792;
+    padding: 5px;}
+
+ .square {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+
+.square:active,
+.active {
+    filter: brightness(300%);
+}
+.blue {
+    background-color: #08B2E3;
+}
+
+.red {
+    background-color: #EE6352;
+}
+
+
+
+.green {
+    background-color: #57A773;
+}
+
+.yellow {
+    background-color: #FFDF64;
+}
+
+.arriba{
+background-image: url("/imagenes/awa.png");
+}
+.abajo{
+    background-image: url("/imagenes/abajo.png");}
+
+.izquierda{
+    background-image: url("/imagenes/izquierda.png");}
+
+.derecha{
+    background-image: url("/imagenes/owo.png");}
